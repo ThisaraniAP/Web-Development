@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weekday or Weekend Checker</title>
+</head>
+<body>
+  <h2>Enter a day of the week:</h2>
+  <input type="text" id="dayInput">
+  <button onclick="checkDay()">Check</button>
+  <p id="result"></p>
+
+  <script>
+    function checkDay() {
+      // Get the input value
+      var day = document.getElementById("dayInput").value.toLowerCase();
+      var result = document.getElementById("result");
+
+      // Use a switch statement to determine if it's a weekday or a weekend
+      switch (day) {
+        case "monday":
+        case "tuesday":
+        case "wednesday":
+        case "thursday":
+        case "friday":
+          result.textContent = "It's a weekday!";
+          break;
+        case "saturday":
+        case "sunday":
+          result.textContent = "It's a weekend!";
+          break;
+        default:
+          result.textContent = "Please enter a valid day of the week.";
+      }
+    }
+  </script>
+</body>
+</html>

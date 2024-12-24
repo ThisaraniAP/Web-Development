@@ -1,0 +1,216 @@
+/*
+Pink: #f0c3c8
+Brown: #323445
+Grey: #afc0c7
+Font: Bradley Hand ITC
+*/
+
+div.container{
+	width: 1500px;
+	height: 650px;
+	margin: 0px auto;
+}
+
+div.nav{
+	width: 1500px;
+	height: 120px;
+	background-color: #f0c3c8cf;
+}
+
+img#logo{
+	width: 90px;
+	padding-top: 15px;
+	padding-left: 45px;
+	float: left;
+	position: relative;
+}
+
+div.nav ul{
+	width: 900px;
+	height: 50px;
+	float: left;
+	left: 300px;
+	position: relative;
+	margin-top: 40px;
+}
+
+div.nav ul li{
+	width: 120px;
+	height: 30px;
+	float: left;
+	position: relative;
+	list-style-type: none;
+	margin-left: 100px;
+	padding-top: 10px;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #323445;
+	border-radius: 50px;
+	background-color: white;
+}
+
+div.nav ul li:hover{
+	background-color: #afc0c7;
+	color: white;
+	transition: background .7s;
+}
+
+div.bg_container{
+	width: 1500px;
+	height: 650px;
+	background-image: url(images/cakebg.jpg);
+	background-size: cover;
+}
+
+div.body_text h1{
+	color: #323445;
+	margin-left: 100px;
+	margin-top: 75px;
+	font-family: Bradley Hand ITC;
+	font-size: 50px;
+}
+
+div.body_text h2{
+	padding-left: 10px;
+	margin-left: 175px;
+	margin-right: 175px;
+	margin-top: 70px;
+	margin-bottom: 100px;
+	font-family: Bradley Hand ITC;
+	font-size: 40px;
+	text-align: center;
+	color: #afc0c7;
+	border: solid #afc0c7;
+}
+
+div.body_text p{
+	margin-left: 100px;
+	margin-right: 150px;
+	text-align: justify;
+	font-family: Bradley Hand ITC;
+	font-size: 25px;
+	font-weight: bold;
+	color: #afc0c7;
+}
+
+div.info_img{
+	width:575px;
+	height:400px;
+	float:left;
+	margin-left:100px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	padding-left: 30px
+}
+
+div.info1 .info_text{
+	margin-left: 65px;
+}
+
+div.info_text{
+	width:575px;
+	height:400px;
+	float:left;
+	margin-left:100px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+div.info_card p{
+	font-family: Bradley Hand ITC;
+	text-align: justify;
+	font-size: 20px;
+	font-weight: bold;
+	color: #323445;
+}
+
+div.info_card img{
+	width: 500px;
+	height: 500px;
+}
+
+div.info_card button{
+	width: 200px;
+	height: 50px;
+	background-color: #f0c3c8;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	color: #323445;
+	border-radius: 50px;
+}
+
+div.info_card button:hover{
+	cursor: pointer;
+	background-color: #afc0c7;
+	color: white;
+	transition: background .7s;
+}
+
+div.info2{
+	background-color: red;
+}
+
+div.img_text{
+	width: 1500px;
+	height: 500px;
+	background-image: url(images/card.jpg);
+	margin-top: 1200px;
+	background-size: cover;
+}
+
+div.img_text p{
+	font-family: Bradley Hand ITC;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 75px;
+}
+
+div.footer{
+	width: 1500px;
+	height: 500px;
+	background-color: #f0c3c8;
+	margin-top: 100px;
+}
+
+div.footer .footer_card{
+	width: 600px;
+	height: 400px;
+	float: left;
+	margin-left:75px;
+	margin-top: 50px;
+}
+
+div.footer_card p{
+	font-family: sans-serif;
+	text-align: justify;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+img.social_media{
+	margin-left: 80px;
+	margin-top: 40px;
+	width:40px;
+	height:40px;
+}
+
+div.footer ul li{
+	float: left;
+	position: relative;
+	list-style-type: none;
+}
+
+div.end_footer{
+	width: 1500px;
+	height: 20px;
+	background-color: #afc0c7;
+	color: #323445;
+	text-align: right;
+}
